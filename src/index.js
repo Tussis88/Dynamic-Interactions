@@ -1,5 +1,4 @@
 import "./style.css";
-import prova from "./test";
+import mainPage from "./mainPage";
 
-prova();
-
+mainPage();
