@@ -1,3 +1,50 @@
-h1 {
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainMenu {
+  background-color: lightgray;
+  width: 100%;
+  padding: 20px 40px;
+}
+
+#dropdown,
+#carousel {
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.5em;
+  border-radius: 4px;
+  background-color: papayawhip;
+
+  &.selected {
+    background-color: palevioletred;
+  }
+}
+
+#content {
+  padding: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#menuDiv {
+  position: relative;
+}
+
+#optionsDiv {
+  position: absolute;
+  border: 1px solid gray;
+  padding: 2px;
+  background-color: white;
+}
+
+#optionsDiv a {
+  display: block;
+
+  &:hover {
+    background-color: lightgray;
+  }
 }
