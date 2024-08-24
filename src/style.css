@@ -9,6 +9,10 @@ body {
   padding: 20px 40px;
 }
 
+#content {
+  padding: 30px;
+}
+
 #dropdown,
 #carousel {
   padding: 10px 20px;
@@ -20,10 +24,6 @@ body {
   &.selected {
     background-color: palevioletred;
   }
-}
-
-#content {
-  padding: 30px;
 }
 
 .hidden {
@@ -47,4 +47,22 @@ body {
   &:hover {
     background-color: lightgray;
   }
+}
+
+/* Carousel */
+.carouselContainer {
+  width: 640px;
+  height: 640px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  left: 0;
+}
+
+.rightSlide {
+  position: absolute;
+  left: 600px;
 }
