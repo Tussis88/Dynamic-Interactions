@@ -66,3 +66,28 @@ body {
   position: absolute;
   left: 600px;
 }
+
+.leftSlide {
+  position: absolute;
+  left: 0px;
+}
+
+.dotContainer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+  background-color: transparent;
+  border: solid 3px green;
+  border-radius: 50%;
+}
+
+.dotContainer > .active {
+  background-color: green;
+}

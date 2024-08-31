@@ -1,4 +1,4 @@
-import { carouselDOM } from "./assets/carousel";
+import { carousel } from "./assets/carousel";
 import { dropdownDOM } from "./assets/dropdown";
 
 export default function mainPage() {
@@ -20,6 +20,6 @@ export default function mainPage() {
     carouselButton.classList.add("selected");
     dropDownButton.classList.remove("selected");
     contentDiv.textContent = "";
-    contentDiv.appendChild(carouselDOM());
+    contentDiv.appendChild(carousel.carouselDOM());
   });
 }
